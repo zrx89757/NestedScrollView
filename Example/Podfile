@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'NestedScrollView_Example' do
+  pod 'NestedScrollView', :path => '../'
+
+  target 'NestedScrollView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
