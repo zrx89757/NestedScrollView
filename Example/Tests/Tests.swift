@@ -1,5 +1,4 @@
 import XCTest
-import NestedScrollView
 
 class Tests: XCTestCase {
     

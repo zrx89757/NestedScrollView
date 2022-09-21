@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		1A78AFDF764AC81605BDABF9 /* Pods_NestedScrollView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B9059DCBDDBCA02BC3888C /* Pods_NestedScrollView_Tests.framework */; };
+		27DA4A1928DAB00C008D8B49 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DA4A0D28DAB00B008D8B49 /* BaseViewController.swift */; };
+		27DA4A1A28DAB00C008D8B49 /* SecondaryTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DA4A0E28DAB00B008D8B49 /* SecondaryTabViewController.swift */; };
+		27DA4A1B28DAB00C008D8B49 /* ComplexHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DA4A0F28DAB00B008D8B49 /* ComplexHeader.swift */; };
+		27DA4A1C28DAB00C008D8B49 /* MainRefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DA4A1028DAB00B008D8B49 /* MainRefreshViewController.swift */; };
+		27DA4A1D28DAB00C008D8B49 /* NestedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DA4A1128DAB00B008D8B49 /* NestedView.swift */; };
+		27DA4A1E28DAB00C008D8B49 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DA4A1228DAB00B008D8B49 /* TestViewController.swift */; };
+		27DA4A1F28DAB00C008D8B49 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DA4A1328DAB00B008D8B49 /* WebViewController.swift */; };
+		27DA4A2028DAB00C008D8B49 /* NormalListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DA4A1428DAB00B008D8B49 /* NormalListViewController.swift */; };
+		27DA4A2128DAB00C008D8B49 /* DemoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DA4A1528DAB00B008D8B49 /* DemoListViewController.swift */; };
+		27DA4A2228DAB00C008D8B49 /* SubRefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DA4A1628DAB00B008D8B49 /* SubRefreshViewController.swift */; };
+		27DA4A2328DAB00C008D8B49 /* ChangeHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DA4A1728DAB00B008D8B49 /* ChangeHeaderViewController.swift */; };
+		27DA4A2428DAB00C008D8B49 /* NestedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DA4A1828DAB00C008D8B49 /* NestedListView.swift */; };
 		419512DB1E7EFC5C245C8532 /* Pods_NestedScrollView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52D502CDF7CD319165436B6 /* Pods_NestedScrollView_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -29,9 +41,21 @@
 
 /* Begin PBXFileReference section */
 		11B9059DCBDDBCA02BC3888C /* Pods_NestedScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NestedScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27DA4A0D28DAB00B008D8B49 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		27DA4A0E28DAB00B008D8B49 /* SecondaryTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondaryTabViewController.swift; sourceTree = "<group>"; };
+		27DA4A0F28DAB00B008D8B49 /* ComplexHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplexHeader.swift; sourceTree = "<group>"; };
+		27DA4A1028DAB00B008D8B49 /* MainRefreshViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRefreshViewController.swift; sourceTree = "<group>"; };
+		27DA4A1128DAB00B008D8B49 /* NestedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedView.swift; sourceTree = "<group>"; };
+		27DA4A1228DAB00B008D8B49 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		27DA4A1328DAB00B008D8B49 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		27DA4A1428DAB00B008D8B49 /* NormalListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalListViewController.swift; sourceTree = "<group>"; };
+		27DA4A1528DAB00B008D8B49 /* DemoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoListViewController.swift; sourceTree = "<group>"; };
+		27DA4A1628DAB00B008D8B49 /* SubRefreshViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubRefreshViewController.swift; sourceTree = "<group>"; };
+		27DA4A1728DAB00B008D8B49 /* ChangeHeaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeHeaderViewController.swift; sourceTree = "<group>"; };
+		27DA4A1828DAB00C008D8B49 /* NestedListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedListView.swift; sourceTree = "<group>"; };
 		3A8B8F32D4E94AFAAA3EACDA /* Pods-NestedScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedScrollView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NestedScrollView_Tests/Pods-NestedScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3DC18D56F140EE256E144DC5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		49E3435BEA9D80A565AA7BCF /* NestedScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NestedScrollView.podspec; path = ../NestedScrollView.podspec; sourceTree = "<group>"; };
+		3DC18D56F140EE256E144DC5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		49E3435BEA9D80A565AA7BCF /* NestedScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NestedScrollView.podspec; path = ../NestedScrollView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* NestedScrollView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestedScrollView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +67,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		9941343AD676CB1304105105 /* Pods-NestedScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedScrollView_Example.release.xcconfig"; path = "Target Support Files/Pods-NestedScrollView_Example/Pods-NestedScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BC8B5193B32DBC8D5A429DBE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BC8B5193B32DBC8D5A429DBE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E34C01F69966F3B05215A364 /* Pods-NestedScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedScrollView_Tests.release.xcconfig"; path = "Target Support Files/Pods-NestedScrollView_Tests/Pods-NestedScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E52D502CDF7CD319165436B6 /* Pods_NestedScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NestedScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61A6AFC431CA25ADD2A868D /* Pods-NestedScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedScrollView_Example.debug.xcconfig"; path = "Target Support Files/Pods-NestedScrollView_Example/Pods-NestedScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +93,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27DA4A0C28DAAFDC008D8B49 /* DemoList */ = {
+			isa = PBXGroup;
+			children = (
+				27DA4A0D28DAB00B008D8B49 /* BaseViewController.swift */,
+				27DA4A1728DAB00B008D8B49 /* ChangeHeaderViewController.swift */,
+				27DA4A0F28DAB00B008D8B49 /* ComplexHeader.swift */,
+				27DA4A1528DAB00B008D8B49 /* DemoListViewController.swift */,
+				27DA4A1028DAB00B008D8B49 /* MainRefreshViewController.swift */,
+				27DA4A1828DAB00C008D8B49 /* NestedListView.swift */,
+				27DA4A1128DAB00B008D8B49 /* NestedView.swift */,
+				27DA4A1428DAB00B008D8B49 /* NormalListViewController.swift */,
+				27DA4A0E28DAB00B008D8B49 /* SecondaryTabViewController.swift */,
+				27DA4A1628DAB00B008D8B49 /* SubRefreshViewController.swift */,
+				27DA4A1228DAB00B008D8B49 /* TestViewController.swift */,
+				27DA4A1328DAB00B008D8B49 /* WebViewController.swift */,
+			);
+			name = DemoList;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +138,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				27DA4A0C28DAAFDC008D8B49 /* DemoList */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -147,7 +191,6 @@
 				3A8B8F32D4E94AFAAA3EACDA /* Pods-NestedScrollView_Tests.debug.xcconfig */,
 				E34C01F69966F3B05215A364 /* Pods-NestedScrollView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +270,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -291,11 +335,21 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-NestedScrollView_Example/Pods-NestedScrollView_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JXSegmentedView/JXSegmentedView.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/NestedScrollView/NestedScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JXSegmentedView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NestedScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -332,7 +386,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				27DA4A2428DAB00C008D8B49 /* NestedListView.swift in Sources */,
+				27DA4A1F28DAB00C008D8B49 /* WebViewController.swift in Sources */,
+				27DA4A1D28DAB00C008D8B49 /* NestedView.swift in Sources */,
+				27DA4A1E28DAB00C008D8B49 /* TestViewController.swift in Sources */,
+				27DA4A1C28DAB00C008D8B49 /* MainRefreshViewController.swift in Sources */,
+				27DA4A2228DAB00C008D8B49 /* SubRefreshViewController.swift in Sources */,
+				27DA4A2028DAB00C008D8B49 /* NormalListViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				27DA4A1B28DAB00C008D8B49 /* ComplexHeader.swift in Sources */,
+				27DA4A2328DAB00C008D8B49 /* ChangeHeaderViewController.swift in Sources */,
+				27DA4A1A28DAB00C008D8B49 /* SecondaryTabViewController.swift in Sources */,
+				27DA4A2128DAB00C008D8B49 /* DemoListViewController.swift in Sources */,
+				27DA4A1928DAB00C008D8B49 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +545,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NestedScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +561,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NestedScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

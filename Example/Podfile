@@ -4,6 +4,11 @@ platform :ios, '10.0'
 
 target 'NestedScrollView_Example' do
   pod 'NestedScrollView', :path => '../'
+  pod 'SnapKit', '5.0.1'
+  pod 'MJRefresh', '3.7.5'
+  pod 'JXSegmentedView'
+  pod 'Then', '2.7.0'
+  pod 'SwifterSwift', '5.2.0'
 
   target 'NestedScrollView_Tests' do
     inherit! :search_paths

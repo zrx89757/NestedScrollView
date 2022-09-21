@@ -1,0 +1,6 @@
+framework module NestedScrollView {
+  umbrella header "NestedScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "NestedScrollView",
+  "version": "0.1.0",
+  "summary": "handle nested scroll views",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zrx89757/NestedScrollView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zrx89757": "504354603@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zrx89757/NestedScrollView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "NestedScrollView/Classes/**/*",
+  "dependencies": {
+    "SnapKit": [
+      ">= 5.0.0"
+    ]
+  }
+}
